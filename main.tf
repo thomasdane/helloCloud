@@ -10,7 +10,7 @@ resource "aws_instance" "example" {
   user_data = <<-EOF
                 #!/bin/bash
                 echo "Hello world" > index.html
-                nohup busybox httpd -f -p "${var.server_port}" &
+                sudo python3 -m http.server "${var.server_port}"
                 EOF
 
   vpc_security_group_ids = ["${aws_security_group.instance.id}"]
