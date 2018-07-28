@@ -1,6 +1,6 @@
-# Hello Cloud Workshop
+# AWS and Terraform Workshop
 
-At the end of this workshop, you will deploy a simple website to the cloud using:
+This repo contains code for an introduction to AWS and terraform. At the end of the workshop, participants will deploy a simple website to the cloud using:
 
 1. the AWS UI
 2. Terraform
